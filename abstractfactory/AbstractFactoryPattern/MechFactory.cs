@@ -9,25 +9,25 @@
 
 class LightMechfactory : MechFactory
 {
-    private Mech LightMech;
+    
     public override Mech CreateUnit()
     {
-        return LightMech = new();
+        return new Mech();
     }
 }
 class MediumMechfactory : MechFactory
 {
-    private Mech MediumMech;
+    
     public override Mech CreateUnit()
     {
-        return MediumMech = new();
+        return new Mech();
     }
 }
 class HeavyMechfactory : MechFactory
 {
-    private Mech HeavyMech;
+    
     public override Mech CreateUnit()
     {
-        return HeavyMech = new();
+        return new Mech();
     }
 }

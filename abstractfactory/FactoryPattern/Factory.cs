@@ -11,33 +11,33 @@ class UnitFactory
 }
 class Mechfactory : UnitFactory
 {
-    private Mech mech;
+    
     public override Mech CreateUnit()
     {
-        return mech = new();
+        return new Mech();
     }
 }
 class Dronefactory : UnitFactory
 {
-    private Drone drone;
+    
     public override Drone CreateUnit()
     {
-        return drone = new();
+        return new Drone();
     }
 }
 class Tankfactory : UnitFactory
 {
-    private Tank tank;
+    
     public override Tank CreateUnit()
     {
-        return tank = new();
+        return new Tank();
     }
 }
 class Soldierfactory : UnitFactory
 {
-    private Soldier soldier;
+    
     public override Soldier CreateUnit()
     {
-        return soldier = new();
+        return new Soldier();
     }
 }

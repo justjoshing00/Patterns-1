@@ -9,25 +9,24 @@
 
 class LightDronefactory : DroneFactory
 {
-    private Drone LightDrone;
     public override Drone CreateUnit()
     {
-        return LightDrone = new();
+        return new Drone();
     }
 }
 class MediumDronefactory : DroneFactory
 {
-    private Drone MediumDrone;
+   
     public override Drone CreateUnit()
     {
-        return MediumDrone = new();
+        return new Drone();
     }
 }
 class HeavyDronefactory : DroneFactory
 {
-    private Drone HeavyDrone;
+    
     public override Drone CreateUnit()
     {
-        return HeavyDrone = new();
+        return new Drone();
     }
 }

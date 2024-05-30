@@ -9,25 +9,25 @@
 
 class LightSoldierfactory : SoldierFactory
 {
-    private Soldier LightSoldier;
+    
     public override Soldier CreateUnit()
     {
-        return LightSoldier = new();
+        return new Soldier();
     }
 }
 class MediumSoldierfactory : SoldierFactory
 {
-    private Soldier MediumSoldier;
+    
     public override Soldier CreateUnit()
     {
-        return MediumSoldier = new();
+        return new Soldier();
     }
 }
 class HeavySoldierfactory : SoldierFactory
 {
-    private Soldier HeavySoldier;
+    
     public override Soldier CreateUnit()
     {
-        return HeavySoldier = new();
+        return new Soldier();
     }
 }

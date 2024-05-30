@@ -9,23 +9,20 @@
 
 class LightTankfactory : TankFactory
 {
-    private Tank LightTank;
     public override Tank CreateUnit()
     {
-        return LightTank = new();
+        return new Tank();
     }
 }class MediumTankfactory : TankFactory
 {
-    private Tank MediumTank;
     public override Tank CreateUnit()
     {
-        return MediumTank = new();
+        return new Tank();
     }
 }class HeavyTankfactory : TankFactory
 {
-    private Tank HeavyTank;
     public override Tank CreateUnit()
     {
-        return HeavyTank = new();
+        return new Tank();
     }
 }
