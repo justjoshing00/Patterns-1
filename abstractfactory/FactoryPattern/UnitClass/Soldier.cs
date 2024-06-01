@@ -1,12 +1,15 @@
-﻿class Soldier:Unit,IUnitFactoryInterface
+﻿namespace FactoryPattern
 {
-    public void Move()
+    class Soldier : Unit
     {
+        public override void Move()
+        {
 
-    }
+        }
 
-    public void Action()
-    {
+        public override void Action()
+        {
 
+        }
     }
 }

@@ -1,12 +1,15 @@
-﻿interface IMech
+﻿namespace AbstractFactoryPattern
 {
-    public void Move()
+    interface IMech
     {
+        public void Move()
+        {
 
-    }
+        }
 
-    public void Action()
-    {
+        public void Action()
+        {
 
+        }
     }
 }

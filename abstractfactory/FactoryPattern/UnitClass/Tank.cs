@@ -1,12 +1,15 @@
-﻿class Tank:Unit,IUnitFactoryInterface
+﻿namespace FactoryPattern
 {
-    public void Move()
+    class Tank : Unit
     {
+        public override void Move()
+        {
 
-    }
+        }
 
-    public void Action()
-    {
+        public override void Action()
+        {
 
+        }
     }
 }

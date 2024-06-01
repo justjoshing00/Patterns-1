@@ -1,12 +1,15 @@
-﻿interface IDrone 
+﻿namespace AbstractFactoryPattern
 {
-    public void Move()
+    interface IDrone
     {
+        public void Move()
+        {
 
-    }
+        }
 
-    public void Action()
-    {
+        public void Action()
+        {
 
+        }
     }
 }

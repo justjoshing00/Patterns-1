@@ -1,12 +1,15 @@
-﻿interface ITank
+﻿namespace AbstractFactoryPattern
 {
-    public void Move()
+    interface ITank
     {
+        public void Move()
+        {
 
-    }
+        }
 
-    public void Action()
-    {
+        public void Action()
+        {
 
+        }
     }
 }

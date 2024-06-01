@@ -1,6 +1,6 @@
-﻿namespace FactoryPattern
+﻿namespace FactoryMethodPattern
 {
-    class Mech : Unit
+    class Tank : Unit
     {
         public override void Move()
         {

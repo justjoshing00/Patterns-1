@@ -1,12 +1,15 @@
-﻿interface ISoldier
+﻿namespace AbstractFactoryPattern
 {
-    public void Move()
+    interface ISoldier
     {
+        public void Move()
+        {
 
-    }
+        }
 
-    public void Action()
-    {
+        public void Action()
+        {
 
+        }
     }
 }

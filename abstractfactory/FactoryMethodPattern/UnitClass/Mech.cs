@@ -1,4 +1,4 @@
-﻿namespace FactoryPattern
+﻿namespace FactoryMethodPattern
 {
     class Mech : Unit
     {
